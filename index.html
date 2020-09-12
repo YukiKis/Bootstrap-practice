@@ -3,25 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta
-      name="viewpoint"
-      content="width=devise-width,initial-scale=1.0,shrink-to-fit=no"
+      name="viewport"
+      content="width=devise-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>sample</title>
+    <title>TITLE</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
+
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8">col-sm-8</div>
-        <div class="col-sm-4">col-sm-4</div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">col-sm</div>
-        <div class="col-sm">col-sm</div>
-        <div class="col-sm">col-sm</div>
+      <div class="row align-items-center" style="height: 100px">
+        <div class="col-sm-9">
+          1st layer col-sm-9
+          <div class="row">
+            <div class="col-8 col-sm-6">2nd layer col-8 / col-sm-6</div>
+            <div class="col-4 col-sm-6">2nd layer col-4 / col-sm-6</div>
+          </div>
+        </div>
+        <div class="col-sm-3">1st layer col-sm-3</div>
       </div>
     </div>
 
